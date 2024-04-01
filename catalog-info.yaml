@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shuja-test"
+  description: 
+  annotations:
+    github.com/project-slug: shujaahmedi2l/shuja-test
+    argocd/app-name: shuja-test
+  links:
+    - url: https://shuja-test.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
